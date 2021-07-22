@@ -1,0 +1,60 @@
+@media (min-width: 768px){
+.showcase .showcase-text {
+    padding: 7rem;
+}
+    
+}
+
+
+
+.masthead{
+    position: relative;
+    background-image: url(./../../images/back-img.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+
+.masthead::before{
+    content: "";
+    position: absolute;
+    text-align: center;
+    background-color: #1c375e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url(./../../images/back-img.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
